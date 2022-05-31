@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+
+</head>
+
+<body>
+    <main>
+        <span class="burger_menu"></span>
+        <img src="./images/logo.svg" alt="logo" class="logo">
+        <nav class="navbar grid justify-content">
+
+            <ul class="gap display_flex main_menu">
+
+                <li class="relative features">Features <span class="arrow arrow__features"> </span>
+                    <ul class="sub_menu sub_menu__frist">
+                        <img src="./images/icon-todo.svg" alt="">
+                        <li> Todo List</li>
+                        <img src="./images/icon-calendar.svg" alt="">
+                        <li> Calendar</li>
+                        <img src="./images/icon-reminders.svg" alt="">
+                        <li> Reminders</li>
+                        <img src="./images/icon-planning.svg" alt="">
+                        <li> Planning</li>
+                    </ul>
+                </li>
+                <li class="relative company">Company <span class="arrow arrow__company"></span>
+                    <ul class="sub_menu sub_menu__second">
+                        <li>History</li>
+                        <li>Our Team</li>
+                        <li>Blog</li>
+
+                    </ul>
+                </li>
+                <li>Careers</li>
+                <li>About</li>
+            </ul>
+            <ul id="login_register" class="gap display_flex">
+                <li class="login">Login</li>
+                <li><button class="register">Register</button></li>
+            </ul>
+        </nav>
+        <div class="main_section">
+            <div class="main_content">
+                <h1 class="title">Make <br> remote work</h1>
+                <br><br>
+                <p> Get your team in sync, no matter your location.Streamline processes, create team rituals, and watch productivity soar.</p>
+                <br><br>
+                <button class="learn_button">Learn more</button>
+                <div class="clients_container">
+                    <img src="./images/client-databiz.svg" alt="">
+                    <img src="./images/client-audiophile.svg" alt="">
+                    <img src="./images/client-meet.svg" alt="">
+                    <img src="./images/client-maker.svg" alt="">
+                </div>
+            </div>
+            <div class="main_image__container">
+                <img class="main_image">
+            </div>
+        </div>
+    </main>
+
+
+</body>
+<script src="./dist/index.js"></script>
+
+</html>
